@@ -1,42 +1,11 @@
-from tkinter import *
 
+cond = input("Enter from what you want to convert mtokm or kmtomi : ")
 
-def mile_to_km():
-    miles = float(miles_input.get())
-    km = round(miles *1.6)
-    km_result_label.config(text= km)
-
-
-
-window = Tk()
-window.title("Mile to kilometre converter")
-window.config(padx = 20  ,pady = 20)
-
-window.mainloop()
-
-
-
-miles_input = Entry(width=7)
-miles_input.grid(column=1, row = 0)
-
-
-# ++++++++++++++++++++++++++++++++++++
-
-miles_label = Label(text = "miles")
-miles_label.grid(column = 2 , row = 0)
-
-
-is_equal_label = Label(text = "is equal to")
-is_equal_label.grid(column = 0 , row = 1)
-
-km_label = Label(text = "Km")
-km_label.grid(column = 1 , row = 1)
-
-km_result_label = Label(text = "0")
-km_result_label.grid(column = 2 , row = 1)
-
-calc_button = Button(text = "calculate", command = mile_to_km)
-calc_button.grid(column = 1 , row = 2)
-
-# +++++++++++++++++++++++++++++++++++++
-
+if (cond=="mtokm"):
+  m = int(input("Enter the number of miles: "))
+  print(f"{m} miles is equal to {m * 1.6}")
+elif (cond=="kmtom"):
+  m = int(input("Enter the number of kilometres: "))
+  print(f"{km} miles is equal to {km / 1.6}")
+else: 
+  print("Sorry you have not given the apt input to the system.")
