@@ -6,3 +6,14 @@ elif(year%4==0):
 
 else:
   print("not a leap year")
+
+
+# second method
+
+
+start = int(input())
+end = int(input())
+
+for i in range(start , end):
+  if (i % 100==0 and i%400==0) or (i%4==0):
+    print( i, end=" ")
