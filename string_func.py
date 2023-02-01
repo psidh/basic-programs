@@ -22,3 +22,4 @@ print(f"check for ascii characters: {str.isascii()}")
 print(f"check for digits: {str.isdigit()}")
 print(f"identifiers: {str.isidentifier()}")
 print(f"title rules followed: {str.istitle()}")
+print(f"the strings wiht he followong values in it: {str.find}"
