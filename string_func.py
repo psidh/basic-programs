@@ -1,11 +1,15 @@
 #strings and their functions 1/2/2023
 
-str = input('Enter a string: ')
-print(str.capitalize())
-print(str.casefold())
-print(str.count("a"))
-print(str.capitalize())
+str = input('Enter a string: \n')
+print("\n")
+print(f"capitalised : {str.capitalize()}")
+print(f"casefold :  {str.casefold()}")
+print(f"count a in the string: ",str.count("a"))
 
-if str.endswith("s"):
+print(f"capitalised : {str.capitalize()}")
+print(f"Title case :{str.title()}")
+if str.endswith("h"):
     print("True")
 
+print(str.center(5,"-"))
+print("\n")
