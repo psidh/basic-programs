@@ -44,3 +44,4 @@ def check_pan(pan_number):
     else:
         print("Invalid PAN card number")
        
+check_pan(pan_number)
