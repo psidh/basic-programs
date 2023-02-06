@@ -38,7 +38,7 @@ pan_number = input("Enter a string: ")
 #     if pan_number.length == 10 and is_Valid_pan_alpha(pan_number) and pan_number[5:8].isnum == "True":
        
 
-def check_pan():
+def check_pan(pan_number):
     if pan_number.isupper =="True" and pan_number.length == 10 and pan_number[0:4].isalpha == "True" and pan_number[5:8].isnum == "True" and pan_number[10].isalpha == "True":
         print("Pan Card number is a valid one ")
     else:
