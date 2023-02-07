@@ -505,4 +505,20 @@ function myFunction() {
 }
 
 // code here can NOT use carName
+/*
+"use strict" mainly used in importing other objects into the mainstream enviroments
 
+
+
+*/
+// "this" keywod used to indicate the objects
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+//
