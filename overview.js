@@ -70,6 +70,12 @@ if (condition1) {
   //  block of code to be executed if the condition1 is false and condition2 is false
 }
 
+
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+
 */
 //____________________________________________________________
 
