@@ -467,8 +467,19 @@ elem.innerHTML = x;                     // Display x in the element
 
 var x; // Declare x
 
+__________________________________________________________-
 
 JS Precedence is exactly like python arithmetic operations
+
+_____________________________________________________________-
+
+The try statement defines a code block to run (to try).
+
+The catch statement defines a code block to handle any error.
+
+The finally statement defines a code block to run regardless of the result.
+
+The throw statement defines a custom error.
 
 
 */
