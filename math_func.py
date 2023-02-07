@@ -24,3 +24,13 @@ var_2 = int(input("Enter second number: "))
 
 
 print(f"the expression is {3*(mt.pow(var_1,2))} + {mt.sqrt(mt.pow(var_1, 2)+ mt.pow(var_2, 2))} + {mt.exp(mt.log(var_1))}")
+
+var3 = int(input("ENter a float number: "))
+
+print(f" After using ciel in the varianle we got {mt.ceil(var3)}")
+
+print(mt.gcd(var_1, var_2))
+
+print(f"The floor fucntiopn used onthe variable we got = {mt.floor(var3)}")
+
+print(f"The fmod function used onto the variable we get = {mt.fmod(var3)}")
