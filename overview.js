@@ -521,4 +521,13 @@ const person = {
   }
 };
 
-//
+// this used to construct the objects im real time inside the function
+
+const person = {
+  firstName  : "John",
+  lastName   : "Doe",
+  id         : 5566,
+  myFunction : function() {
+    return this;
+  }
+};
