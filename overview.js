@@ -56,7 +56,21 @@ let text = "Hello"; text += " World";
 
 // conditional statetments
 // if and else if , and else and switch
+if (hour < 18) {
+  greeting = "Good day";
+}
 
+/*
+
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+
+*/
 //____________________________________________________________
 
 // now lets discuss and concentrate on bitwise operators
