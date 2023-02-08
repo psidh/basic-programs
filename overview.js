@@ -610,3 +610,19 @@ const message = () => {
   };
   
   export default message;
+
+// importing these
+
+import { name, age } from "./person.js";
+
+// LETS TALK ABOUT JSON : JAVASCRIPT OBJECT NOTATION
+
+/*
+{
+"employees":[
+  {"firstName":"John", "lastName":"Doe"}, 
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Peter", "lastName":"Jones"}
+]
+}
+*/
