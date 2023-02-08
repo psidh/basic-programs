@@ -709,3 +709,13 @@ function myCalculator(num1, num2) {
 
 myCalculator(5, 5);
 // Python chimes
+
+//Asynchronous Javascript
+
+
+setTimeout(myFunction, 3000);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "I love You !!";
+}
+/*
