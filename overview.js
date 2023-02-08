@@ -683,3 +683,15 @@ Object.isFrozen(object)
 
 // The super() method refers to the parent class.
 // js callback are used for refering to the old definde functions
+
+function myFirst() {
+  myDisplayer("Hello");
+}
+
+function mySecond() {
+  myDisplayer("Goodbye");
+}
+
+myFirst();
+mySecond();
+
