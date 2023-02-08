@@ -581,3 +581,15 @@ let myCar1 = new Car("Mercedes", 2021);
 let myCar2 = new Car("Audi A4", 2018);
 
 // constructor used into new mthdos into object classes
+
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  age() {
+    let date = new Date();
+    return date.getFullYear() - this.year;
+  }
+}
+
