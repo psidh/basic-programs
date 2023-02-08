@@ -596,3 +596,10 @@ class Car {
 let myCar = new Car("Ford", 2014);
 document.getElementById("demo").innerHTML =
 "My car is " + myCar.age() + " years old.";
+
+// imporint modules intpo the javascript
+/*
+<script type="module">
+import message from "./message.js";
+</script> */
+
