@@ -626,3 +626,14 @@ import { name, age } from "./person.js";
 ]
 }
 */
+// JSON FORMAT IS AN EQUIVALENT TO DICTIONARY IN PYTHON
+// Sample code in JSON format
+
+/* <p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+obj.employees[1].firstName + " " + obj.employees[1].lastName;
+</script> */
+
+//__________________________________________
