@@ -695,3 +695,17 @@ function mySecond() {
 myFirst();
 mySecond();
 
+//  exaclty similar to {python}
+// nested fucntions
+
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+function myCalculator(num1, num2) {
+  let sum = num1 + num2;
+  myDisplayer(sum);
+}
+
+myCalculator(5, 5);
+// Python chimes
