@@ -5,7 +5,7 @@ int main()
 {
     std::cout << "Srinivas";
     
-//     this line prints the expression as output
+    // this line prints the expression as output
     int a = 9;         // no initializer (default initialization)
     int b = 5;     // initializer after equals sign (copy initialization)
     int c( 6 );    // initializer in parenthesis (direct initialization)
@@ -22,11 +22,11 @@ int main()
 
     int width { 5 };    // direct list initialization of value 5 into variable width (preferred)
     int height = { 6 }; // copy list initialization of value 6 into variable height
-//    int depth {};       // value initialization (see next section)
+    //int depth {};       // value initialization (see next section)
     
     std::cout << width + height;
     
-//  [[maybe_unused]] int x1 { 5 };
+    //  [[maybe_unused]] int x1 { 5 };
 
     // since x is [[maybe_unused]], no warning generated
     std::cout << 4 << "\n";
@@ -47,6 +47,7 @@ int main()
     std::cout << "The numbers are " << x << " and " << y << '\n';
 
     return 0;
+    
     /*
      this
      is
