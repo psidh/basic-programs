@@ -719,3 +719,34 @@ function myFunction() {
   document.getElementById("demo").innerHTML = "I love You !!";
 }
 /*
+When you pass a function as an argument, remember not to use parenthesis.
+
+Right: setTimeout(myFunction, 3000);
+
+Wrong: setTimeout(myFunction(), 3000); 
+
+
+setTimeout(function() { myFunction("I love You !!!"); }, 3000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+
+In the example above, function(){ myFunction("I love You !!!"); } is used as a callback. It is a complete function. The complete function is passed to setTimeout() as an argument.
+
+*/
+
+// JS promises used to determine the status opf the given code
+
+// API in javascript
+
+/*A Web API is an application programming interface for the Web.
+
+A Browser API can extend the functionality of a web browser.
+
+A Server API can extend the functionality of a web server. */
+
+// browser api car
+
+//const myElement = document.getElementById("demo");
+
