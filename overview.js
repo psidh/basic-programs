@@ -558,3 +558,12 @@ hello = function() {
   return "Hello World!";
 }
 
+
+//__________________________________________
+
+//With a regular function this represents the object that calls the function:
+
+//With an arrow function this represents the owner of the function:
+
+//__________________________________________
+
