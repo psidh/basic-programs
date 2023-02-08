@@ -25,12 +25,12 @@ inte = []
 for i in range(len(str)):
     inte.append(int(str[i]))
 
-print(inte)
+# print(inte)
 num2 = 0
 for i in range(len(str)):
     num2 += inte[i]
 
-print(num2)
+# print(num2)
 
 if (num3 == num2):
     print("Neon Number \n")
