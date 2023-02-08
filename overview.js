@@ -546,3 +546,15 @@ const person2 = {
 
 // Return "John Doe":
 person1.fullName.call(person2);
+
+
+
+// Arrow functions allow us to write shorter function syntax:
+
+let myFunction = (a, b) => a + b;
+
+// wothnout arrow the function becomes to tiring to write
+hello = function() {
+  return "Hello World!";
+}
+
