@@ -2,19 +2,19 @@ from math import *
 
 constant_pi = pi
 
-number = int(input("Enter a number:  "))
+def mathe():
+  print(f"The sin value of the given input is {sin(number)}")
 
-print(f"The sin value of the given input is {sin(number)}")
+  print(f"The cos value pof the given input is {cos(number)}")
 
-print(f"The cos value pof the given input is {cos(number)}")
+  print(f"The cos value pof the given input is {tan(number)}")
 
-print(f"The cos value pof the given input is {tan(number)}")
+  print(f"Exponential of {number} is {mt.exp(number)}")
 
-print(f"Exponential of {number} is {mt.exp(number)}")
+  print(f"natural logarithm of {number} is {mt.log(number)}")
 
-print(f"natural logarithm of {number} is {mt.log(number)}")
+  print(f"logarithm of {number} is {mt.log10(number)}")
 
-print(f"logarithm of {number} is {mt.log10(number)}")
 
 
 var_1 = int(input("Enter first number: "))
@@ -34,3 +34,8 @@ print(mt.gcd(var_1, var_2))
 print(f"The floor fucntiopn used onthe variable we got = {mt.floor(var3)}")
 
 print(f"The fmod function used onto the variable we get = {mt.fmod(var3)}")
+
+
+number = int(input("Enter a number:  "))
+
+mathe(number)
