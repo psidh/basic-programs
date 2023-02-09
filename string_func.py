@@ -10,23 +10,24 @@ def str_check():
 
     print(f"capitalised : {str.capitalize()}")
     print(f"Title case :{str.title()}")
-str_check(str)
+
     
-if str.endswith("h"):
-    print("True")
+    if str.endswith("h"):
+        print("True")
 
-print(str.center(45, "y"))
-print("\n")
+    print(str.center(45, "y"))
+    print("\n")
 
-print(f"check for alphanumberic: {str.isalnum()}")
-print(f"check for decimals: {str.isdecimal()}")
-print(f"check for alphabet: {str.isalpha()}")
-print(f"check for ascii characters: {str.isascii()}")
-print(f"check for digits: {str.isdigit()}")
-print(f"identifiers: {str.isidentifier()}")
-print(f"title rules followed: {str.istitle()}")
-print(f"the strings wiht he followong values in it: {str.find}")
+    print(f"check for alphanumberic: {str.isalnum()}")
+    print(f"check for decimals: {str.isdecimal()}")
+    print(f"check for alphabet: {str.isalpha()}")
+    print(f"check for ascii characters: {str.isascii()}")
+    print(f"check for digits: {str.isdigit()}")
+    print(f"identifiers: {str.isidentifier()}")
+    print(f"title rules followed: {str.istitle()}")
+    print(f"the strings wiht he followong values in it: {str.find}")
 
+str_check(str)
 string1 = input("Enter a string to operate some of the functions: ")
 
 print(f" Check for numberical spaces in a string {string1.isspace}") ## boolean operator on a string
