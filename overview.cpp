@@ -10,3 +10,11 @@ int main()
     // there are 92 reserved words in C++
     
     
+    std::cout << "Enter an Integer: ";
+    int num{ };
+    std::cin >> num ;
+    
+    int doubleNum{ num * 2};
+    std::cout << "Double of " << num << " is " << doubleNum << "\n";
+    
+//    returnType functionName()
