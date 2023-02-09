@@ -18,3 +18,14 @@ int main()
     std::cout << "Double of " << num << " is " << doubleNum << "\n";
     
 //    returnType functionName()
+    return 0;
+    /*
+     this
+     is
+     a
+     multline comment
+     */
+}
+void doPrint(){
+    std::cout << "In doPrint()\n";
+}
