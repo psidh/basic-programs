@@ -31,7 +31,7 @@ for i in range(n+1):            #The first loop for printing the no. of rows
 for i in range(n+1):            #The first loop for printing the no. of rows
     for j in range(n+1):        #The second loop for inner loop
         if(j<= n-i):            # if the j (inner) is not equal to (n-i) the it should print the spaces between the loop
-            print('*', end = "")# the actual spaces printing
+            print('*', end = "")# the ASTERICK  printing
         else:
-            print(" ", end = "")#The asterick is printed to this
+            print(" ", end = "")#The SPACES is printed to this
     print()
