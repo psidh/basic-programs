@@ -1,4 +1,7 @@
 n = int(input("Enter the n size: ")) #. N represents the no. of rows to be printed
+
+
+
 print("Pattern\n")
 for i in range(n):                   #. This is the first loop which makes the rows
   for j in range(i):                 #. The inner loop has the work of printing across the rows like a matrix
@@ -19,4 +22,13 @@ for i in range(n+1):            #The first loop for printing the no. of rows
             print(" ", end = "")# the actual spaces printing
         else:
             print('*', end = "")#The asrterick is printed to this
+    print()
+
+    
+for i in range(n+1):            #The first loop for printing the no. of rows
+    for j in range(n+1):        #The second loop for inner loop
+        if(j<= n-i):            # if the j (inner) is not equal to (n-i) the it should print the spaces between the loop
+            print('*', end = "")# the actual spaces printing
+        else:
+            print(" ", end = "")#The asterick is printed to this
     print()
