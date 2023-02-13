@@ -11,9 +11,4 @@ for i in range(n):                   #. The initial loop does the same thing as 
     print("*", end="")               
   print()
 
-for i in range(n):
-  for j in range(i):
-    print((i*" "), "*" )
-  print()  
-  
-  
+
