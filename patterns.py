@@ -1,6 +1,6 @@
 n = int(input("Enter the n size: ")) #. N represents the no. of rows to be printed
 
-
+# ________TRIANGLE_____________________
 
 print("Pattern\n")
 for i in range(n):                   #. This is the first loop which makes the rows
@@ -8,13 +8,15 @@ for i in range(n):                   #. This is the first loop which makes the r
     print("*", end="")               #. The asterick or any other print statement can be used and end="" is used to print adjacent values
   print()                            #. The last statement is used is to bring the cursor to the startin position
   
+# ________INVERTED - TRIANGLE_____________________
+
 print("\n Inverted Triangle")        #. The Inverted triangle goes with the same approach
 for i in range(n):                   #. The initial loop does the same thing as before
   for j in range(n-1):               #. The second loop makes the decrementation with respect to i
     print("*", end="")               
   print()
 
-
+# ________MIRRORED - TRIANGLE_____________________
 
 for i in range(n+1):            #The first loop for printing the no. of rows
     for j in range(n+1):        #The second loop for inner loop
@@ -23,7 +25,8 @@ for i in range(n+1):            #The first loop for printing the no. of rows
         else:
             print('*', end = "")#The asrterick is printed to this
     print()
-
+    
+# ________INVERTED MIRRORED - TRIANGLE_____________________
     
 for i in range(n+1):            #The first loop for printing the no. of rows
     for j in range(n+1):        #The second loop for inner loop
