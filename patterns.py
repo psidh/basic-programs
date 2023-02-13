@@ -5,8 +5,8 @@ for i in range(n):                   #. This is the first loop which makes the r
     print("*", end="")               #. The asterick or any other print statement can be used and end="" is used to print adjacent values
   print()                            #. The last statement is used is to bring the cursor to the startin position
   
-print("\n Inverted Triangle")        
-for i in range(n):
+print("\n Inverted Triangle")        #. The Inverted triangle goes with the same approach
+for i in range(n):                   #. This time the initial loop is 
   for j in range(n-1):
     print("*", end="")
   print()
