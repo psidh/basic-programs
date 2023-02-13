@@ -12,3 +12,11 @@ for i in range(n):                   #. The initial loop does the same thing as 
   print()
 
 
+
+for i in range(n+1):            #The first loop for printing the no. of rows
+    for j in range(n+1):        #The second loop for inner loop
+        if(j<= n-i):            # if the j (inner) is not equal to (n-i) the it should print the spaces between the loop
+            print(" ", end = "")# the actual spaces printing
+        else:
+            print('*', end = "")#The asrterick is printed to this
+    print()
