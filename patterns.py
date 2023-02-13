@@ -6,7 +6,10 @@ for i in range(n):                   #. This is the first loop which makes the r
   print()                            #. The last statement is used is to bring the cursor to the startin position
   
 print("\n Inverted Triangle")        #. The Inverted triangle goes with the same approach
-for i in range(n):                   #. This time the initial loop is 
-  for j in range(n-1):
-    print("*", end="")
+for i in range(n):                   #. The initial loop does the same thing as before
+  for j in range(n-1):               #. The second loop makes the decrementation with respect to i
+    print("*", end="")               
   print()
+
+  
+  
