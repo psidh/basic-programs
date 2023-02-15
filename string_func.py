@@ -50,12 +50,12 @@ def check_pan(pan_number):
        
 check_pan(pan_number)
 
-n = int(input())
+num = int(input())
 
 def reverse(n):
     length = len(str(n))
     strsrc = ""
-
+    
     for i in range(length):
         strsrc+=str(n%10)
         n = n//10
@@ -64,11 +64,11 @@ def reverse(n):
     for i in range(len(strsrc)):
         palin += str(strsrc[i])
     print(palin)  
-
-    if int(palin) == n:
+ 
+    if (palin) == str(num):
         print("A Palindrome number")
-        
+
     else:
         print("Not a Palindrome")  
 
-reverse(n)
+reverse(num)
