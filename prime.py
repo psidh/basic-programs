@@ -13,3 +13,18 @@ def find_n_prime_numbers(n):
 
 # Find the first 10 prime numbers
 print(find_n_prime_numbers(10))
+
+#METHOD 2
+
+ 
+n1 = int(input ())  
+n2 = int(input ())  
+  
+print ("The Prime Numbers in the range are: ")  
+for i in range (n1, n2 + 1):  
+    if i > 1:  
+        for j in range (2, i):  
+            if (i % j) == 0:  
+                break
+        else:  
+            print (i)  
