@@ -14,18 +14,24 @@ else:
     
 n = int(input())
 
+n = int(input())
+
 def reverse(n):
     length = len(str(n))
-    list = []
+    strsrc = ""
+
     for i in range(length):
-        list.append(n%10)
+        strsrc+=str(n%10)
         n = n//10
-    palin=''
-    for i in range(len(list)):
-        palin += str(list[i])
+    palin= ""
+
+    for i in range(len(strsrc)):
+        palin += str(strsrc[i])
     print(palin)  
+
     if int(palin) == n:
         print("A Palindrome number")
+        
     else:
         print("Not a Palindrome")  
 
