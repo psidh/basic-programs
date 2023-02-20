@@ -24,3 +24,6 @@ def fact(num):
     return fact
 ans2 = fact(num)
 print(ans2)
+
+def is_strong(num):
+    
