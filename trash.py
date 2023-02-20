@@ -26,16 +26,14 @@ ans2 = fact(num)
 print(ans2)
 
 def is_strong(num):
-    s = 0
-    while(n >0):
-      rem = n%10
-      s += factorial(rem)
-      n //10     
-    return s
+ 
+    num_str = str(num)
+    sum_factorials = sum([factorial(int(digit)) for digit in num_str])
+    return sum_factorials == num
 
 def factorial(n):
     if n == 0:
         return 1
     else:
-        return n * factorial(n-1)  
+        return n * factorial(n-1)
     
