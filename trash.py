@@ -12,5 +12,6 @@ def arms(num):
     return num,"is an Armstrong number"
   else:
     return num,"is not an Armstrong number"  
-    
-  
+ans = arms(num)
+print(ans)
+ 
