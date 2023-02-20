@@ -28,7 +28,8 @@ print(ans2)
 def is_strong(num):
  
     num_str = str(num)
-
+    for digit in num_str:
+        sum_factorials += sum(factorial(int(digit)))
     return sum_factorials == num
 
 def factorial(n):
