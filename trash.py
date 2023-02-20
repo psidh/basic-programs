@@ -15,3 +15,5 @@ def arms(num):
 ans = arms(num)
 print(ans)
  
+def fact(num):
+    fact = 0
