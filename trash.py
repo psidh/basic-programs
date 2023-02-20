@@ -8,7 +8,8 @@ def arms(num):
     digit = tempo % 10
     sum += digit ** (len(str(num)))
     tempo //= 10
-    
+  if num == sum:
+    return num,"is an Armstrong number"
     
     
   
