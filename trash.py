@@ -26,4 +26,6 @@ ans2 = fact(num)
 print(ans2)
 
 def is_strong(num):
+    num_str = str(num)
+
     
