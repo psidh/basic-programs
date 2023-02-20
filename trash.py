@@ -10,6 +10,7 @@ def arms(num):
     tempo //= 10
   if num == sum:
     return num,"is an Armstrong number"
-    
+  else:
+    return num,"is not an Armstrong number"  
     
   
