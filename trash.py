@@ -27,5 +27,7 @@ print(ans2)
 
 def is_strong(num):
     num_str = str(num)
+    sum_fact = sum([factorial(int(digit)) for digit in num_str])
+
 
     
