@@ -4,6 +4,8 @@
 num = int(input("Enter a number: "))
 def arms():
   str = str(num)
+  list =[]
   for i in range(len(str)):
+    
     
   
