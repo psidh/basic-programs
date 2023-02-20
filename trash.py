@@ -22,3 +22,5 @@ def fact(num):
     for i in range(1, num -1):
         fact *= i
     return fact
+ans2 = fact(num)
+print(ans2)
