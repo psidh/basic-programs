@@ -31,5 +31,8 @@ def is_strong(num):
     return sum_fact == num
 
 
-
+def factorial(n):
+    if n == 0:
+        return 1
+   
     
