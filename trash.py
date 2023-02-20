@@ -17,3 +17,5 @@ print(ans)
  
 def fact(num):
     fact = 0
+    if num == 1:
+      return 1
