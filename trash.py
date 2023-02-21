@@ -2,11 +2,9 @@
 
 #recursive functions 
 
-def factoirial(n):
+def fact(n):
   i = 0
-  fact = 1
-  while(i<n):
-    fact*=i
-    i+=1
-  return fact
+  while (i<n):
+    fact_ *= i
+  return fact(n-1)
   
