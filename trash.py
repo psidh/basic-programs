@@ -1,10 +1,9 @@
-#21st Feb class
-
-#recursive functions 
-
+n = int(input())
 def fact(n):
-  i = 0
-  while (i<n):
-    fact_ *= n * fact(n-1)
-  return fact_
+    if (n==0):
+        return 1
+    else:
+        return n * fact(n-1)
   
+v =fact(n)
+print(v)
