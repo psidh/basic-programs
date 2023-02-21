@@ -1,10 +1,10 @@
 n = int(input())
 
-def fact(n):
+def sum(n):
     if (n==0):
         return 1
     else:
-        return n * fact(n-1)
+        return n + sum(n-1)
   
-v =fact(n)
+v =sum(n)
 print(v)
