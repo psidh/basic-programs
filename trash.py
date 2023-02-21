@@ -19,6 +19,8 @@ def fact(n):
 u =fact(n)
 print(u)
 
+a= int(input())
+b= int(input())
 def gcd(a, b):
     if a%b == 0
         return b
