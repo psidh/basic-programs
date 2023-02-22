@@ -11,3 +11,4 @@ print(a[1])
 ''' 
 append, count, extend, index, insert, pop, remove, reverse
 '''
+print(len(a))
