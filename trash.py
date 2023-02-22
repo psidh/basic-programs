@@ -8,3 +8,4 @@ print(name_list)
 
 # lists are mutable because it stores values independently 
 # we cannot change the elemental values insidethe list
+#defining the list is just typing the square the brackets
