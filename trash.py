@@ -6,3 +6,8 @@ print(a+b)
 # getting the specific elemets of the list
 
 print(a[1])
+#list methods are as the following 
+
+''' 
+append, count, extend, index, insert, pop, remove, reverse
+'''
