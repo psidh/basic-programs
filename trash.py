@@ -22,3 +22,6 @@ list2.append(2)
 list1.append(list2)
 
 #printing the elements insied a list
+
+for i in list1:
+  print(list[i])
