@@ -14,3 +14,4 @@ append, count, extend, index, insert, pop, remove, reverse
 print(len(a), max(a), min(a))
 for i in range(len(a)):
   print(a[i])
+print(sum(a))
