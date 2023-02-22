@@ -12,9 +12,11 @@ print(name_list)
 number_of_people = int(input())
 for i in range(number_of_people):
   l = input()
-  list = []
-  list.append(l)
+  list1 = []
+  list1.append(l)
  print(list)
 
 #creating a sub list
-  
+list2 = []
+list2.append(2)
+list1.append(list2)
