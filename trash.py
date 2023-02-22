@@ -9,3 +9,10 @@ print(name_list)
 # lists are mutable because it stores values independently 
 # we cannot change the elemental values insidethe list
 #defining the list is just typing the square the brackets
+number_of_people = int(input())
+for i in range(number_of_people):
+  l = input()
+  list = []
+  list.append(l)
+ print(list)
+  
