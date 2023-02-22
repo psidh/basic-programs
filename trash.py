@@ -4,3 +4,4 @@
 
 name = input("Enter your name: ")
 name_list = list(name)
+print(name_list)
