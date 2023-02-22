@@ -15,3 +15,7 @@ print(len(a), max(a), min(a))
 for i in range(len(a)):
   print(a[i])
 print(sum(a))
+
+for i range(5):
+  list2.append(input())
+print(list2)
