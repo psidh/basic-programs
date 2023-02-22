@@ -15,4 +15,6 @@ for i in range(number_of_people):
   list = []
   list.append(l)
  print(list)
+
+#creating a sub list
   
