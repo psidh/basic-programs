@@ -20,3 +20,5 @@ for i in range(number_of_people):
 list2 = []
 list2.append(2)
 list1.append(list2)
+
+#printing the elements insied a list
