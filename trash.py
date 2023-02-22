@@ -25,3 +25,6 @@ list1.append(list2)
 
 for i in list1:
   print(list[i])
+
+#len of sting
+print(len(list2)
