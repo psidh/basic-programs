@@ -5,3 +5,5 @@
 name = input("Enter your name: ")
 name_list = list(name)
 print(name_list)
+
+# lists are mutable because it stores values independently 
