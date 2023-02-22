@@ -28,3 +28,6 @@ for i in list1:
 
 #len of sting
 print(len(list2)
+#shortcut for the printing the elements of a list
+      
+print(range(len(friends)))
