@@ -3,3 +3,4 @@
 ##string and tuples are immutable datatypes
 
 name = input("Enter your name: ")
+name_list = list(name)
