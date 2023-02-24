@@ -26,7 +26,14 @@ text.length; // 11
 "BLUE".toLowerCase(); // "blue";
 
 "red".toUpperCase(); // "RED";
+/*
 
+You can create strings with " or '
+.length is a property that gives you the length of a string
+.toUpperCase() is a function that converts the string to upper case
+.toLowerCase() is a function that converts the string to lower case
+parentheses () on function calls are required. .length is a property that is already pre-computed; therefore, it does not need parentheses.
+console.log(...) is used for debugging and is NOT a replacement for return. */
 //______________________________________________________________
 
 //another methhod used for the samw purpose is 
