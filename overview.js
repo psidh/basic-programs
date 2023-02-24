@@ -67,6 +67,15 @@ if (hour < 18) {
   greeting = "Good day";
 }
 
+function sum(a, b) {
+    console.log(a);
+    console.log(a + b);
+    return a + b;
+}
+
+// Sample usage
+sum(1, 3);
+
 /*
 
 if (condition1) {
