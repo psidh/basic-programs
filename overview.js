@@ -46,6 +46,16 @@ indexStart: the position of the first character you'd like to include.
 indexEnd: the position of the first character you'd like to ignore.
 the indexEnd argument is optional which means you can leave it out.
 
+string concatentation
+
+let prefix = "Mrs.";
+let name = "Sam";
+let string = prefix + " " + name; // "Mrs. Sam"
+
+string interpolation : using back quotation
+let language = "JavaScript";
+`I am learning ${language}`; //"I am learning JavaScript";
+
 */
 //______________________________________________________________
 
