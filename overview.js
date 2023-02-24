@@ -56,6 +56,10 @@ string interpolation : using back quotation
 let language = "JavaScript";
 `I am learning ${language}`; //"I am learning JavaScript";
 
+A template string is a string created with the backtick character: `
+Template strings can span multiple lines
+Template strings support interpolation with the ${variableName} syntax
+
 */
 //______________________________________________________________
 
