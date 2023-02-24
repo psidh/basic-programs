@@ -20,6 +20,11 @@ document.getElementById("demo").innerHTML = 5 + 6;
 </body>
 </html>
 
+let text = "Hello World";
+text.length; // 11
+
+"BLUE".toLowerCase(); // "blue";
+
 //______________________________________________________________
 
 //another methhod used for the samw purpose is 
