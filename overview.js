@@ -33,7 +33,14 @@ You can create strings with " or '
 .toUpperCase() is a function that converts the string to upper case
 .toLowerCase() is a function that converts the string to lower case
 parentheses () on function calls are required. .length is a property that is already pre-computed; therefore, it does not need parentheses.
-console.log(...) is used for debugging and is NOT a replacement for return. */
+console.log(...) is used for debugging and is NOT a replacement for return. 
+
+Square brackets [index] are used to access a specific index from a string.
+The index starts at 0. So the first character is index 0.
+You can combine it with the length of a string to get another character in another position.
+The .at() method allows you to read a character at an index (which can also be negative).
+
+*/
 //______________________________________________________________
 
 //another methhod used for the samw purpose is 
