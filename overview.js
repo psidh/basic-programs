@@ -25,6 +25,8 @@ text.length; // 11
 
 "BLUE".toLowerCase(); // "blue";
 
+"red".toUpperCase(); // "RED";
+
 //______________________________________________________________
 
 //another methhod used for the samw purpose is 
