@@ -1,7 +1,3 @@
-n =. int(input())
-for i in range(n):
-  list = []
-  list.append(i)
 (X, Y, Z ) = (1, 2, 3)
 
 print(X)
@@ -21,4 +17,3 @@ for i in range(len(list1)):
 print(tuple1)
  
 print(tuple1.count(2))
-
