@@ -20,13 +20,18 @@ for i in range(strength_of_class):
 for i in range(strength_of_class):
     if STUDENTS[i][1] > 80:
         student_A.append(name)
-    
-    elif 70 <= STUDENTS[i][1] <= 80:
+    elif 60 <= STUDENTS[i][1] <= 80:
         student_B.append(name)
-    elif 70 < STUDENTS[i][1]:
+    elif STUDENTS[i][1] < 60:
         student_C.append(name)
 
 print(f"The list of all the students are \n {STUDENTS}")
 print(f"The list of A grade students \n {student_A}")
 print(f"The list of B grade students \n {student_B}")
 print(f"The list of C grade students \n {student_C}")
+
+
+# #print all students list, A and B and C grade list separately
+
+
+
