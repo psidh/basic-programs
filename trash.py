@@ -20,3 +20,17 @@ for i in range(len(list)):
             print("False")
             break
     break
+
+    # for universal converage the below code can be used
+    # max_list =[]
+# list1 = []
+# length = int(input("Enter the number of lists you want to enter: "))
+# for i in range(length):
+#     for j in range(3):
+#         start = int(input("Enter start value: "))
+#         end = int (input("Enter end value: "))
+#         binary  = int(input("Enter the outcome: "))
+#         list1.append(start)
+#         list1.append(end)
+#         list1.append(binary)
+#         max_list.append(list1)
