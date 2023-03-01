@@ -1,20 +1,22 @@
-# import random
+list= [
+    [1, 2, 1],
+    [2, 3, 0],
+    [2, 4, 1],
+]
 
-# list1 = [1,2, 3, 4, 5, 6]
-
-# target =  int(input("Enter the target value: "))
-
-# def fact(n):
-#     for i in range(1, n+1):
-#         fact = 1
-#         fact *= i
-#     return fact
-# count = 0
-# for j in range(fact(len(list1))):
-#     k = random.randint(0, len(list1)-1)
-#     if list1[j] + list1[k] == target:
-#         count+=1 
-#         print(count) 
-
-
-list1 = 
+def even(n):
+    if n%2 == 0:
+        return True
+count = 0
+for i in range(len(list)):
+    for j in range(2):
+        if even((list[i][0]) - (list[i][1]))  and list[i][2] == 0:
+            print("True")
+            break
+        elif even((list[i][0]) - (list[i][1])) == False and list[i][2] == 1:
+            print("True")
+            break
+        else:
+            print("False")
+            break
+    break
