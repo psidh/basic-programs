@@ -7,3 +7,7 @@ for i in range(15):
 
     DICT[n] = m
 
+print(DICT)
+
+def rad_eval():
+    return(eval(input("Enter the dictionary values: ")))
