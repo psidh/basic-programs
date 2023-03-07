@@ -17,28 +17,31 @@ print(l3)
 
 # # boys = 0
 # # girls = 1
-list2=[]
+
+
+list2 = []
 def i():
-    rows = int(input("Enter thh number of rows: "))
+    rows = int(input("Enter the number of rows: "))
     
     for i in range(rows):
-        input_ = input("Enter the row sequence")
-        k = input_.split()
+        input_ = input("Enter the row sequence: ")
+        k = [int(x) for x in input_.split()]
         list2.append(k)
-
 i()
 print(list2)
 
 list3 = []
+
 for row in list2:
     boy = row.count(0)
     girl = row.count(1)
     list3.append([boy, girl])
 
-for i in range(len(list3)):
-    
-    print(f"{i+1} Row: boys {list3[i][0]}")
-    print(f"{i+1} Row: girls {list3[i][1]}")
+for i, counts in enumerate(list3):
+    print(f"Row {i+1}: boys {counts[0]}")
+    print(f"Row {i+1}: girls {counts[1]}")
+
+
 
 
 
