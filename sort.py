@@ -113,3 +113,36 @@ for i in range(len(lst)):
             lst[j], lst[j+1] = lst[j+1], lst[j]
 print(lst)
 
+l1 = []
+l2 = []
+N = 3
+
+# input for l1
+for i in range(N):
+    x1 = int(input(">"))
+    l1.append(x1)
+
+# input for l2
+for i in range(N):
+    x2 = int(input(">"))
+    l2.append(x2)
+
+# print input lists
+print("List 1:", l1)
+print("List 2:", l2)
+
+# sort l1
+for i in range(len(l1)):
+    for j in range(len(l1)-1):
+        if l1[j] > l1[j+1]:
+            l1[j], l1[j+1] = l1[j+1], l1[j]
+
+# sort l2
+for i in range(len(l2)):
+    for j in range(len(l2)-1):
+        if l2[j] > l2[j+1]:
+            l2[j], l2[j+1] = l2[j+1], l2[j]
+
+# merge and display
+l3 = l1 + l2
+print("Sorted List:", l3)
