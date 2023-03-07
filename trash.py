@@ -45,9 +45,22 @@
         
 # print(list2)
 
-
-
 #__________________________________________________________________
 
 
 #CONSTANT = 3816547290
+
+n1 = int(input("Enter the number of elemetns in the list 1: "))
+n2 = int(input("Enter the number of elemetns in the list 2: "))
+
+for i in range(n1):
+    x = int(input())
+    l1 = []
+    l1.append(x)
+for i in range(n2):
+    y = int(input())
+    l2 = []
+    l2.append(y)
+    
+    
+
