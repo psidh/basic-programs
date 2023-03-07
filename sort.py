@@ -75,6 +75,9 @@ for i in range(len(l2)):
 l3 = l1 + l2
 print(l3)
 
+
+# Q2 MErge the two lists and the sort the the "merged list"
+
 # Q3) read a sentence into a string and sort the words in a sentence in ascending order of the length of the words 
 #_________________________________________________________
 
