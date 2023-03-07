@@ -78,6 +78,28 @@ print(l3)
 
 # Q2 MErge the two lists and the sort the the "merged list"
 
+l1 = []
+l2 = []
+
+for i in range(5):
+    x1 = int(input())
+    l1.append(x1)
+for i in range(5):
+    x2 = int(input())
+    l2.append(x1)
+
+
+l3 = l1 + l2
+
+for i in range(len(l3)):
+    for j in range(len(l3)-1):
+        if l3[j] > l3[j+1]:
+            l3[j], l3[j+1] = l3[j+1], l3[j]
+
+
+
+print(l3)
+
 # Q3) read a sentence into a string and sort the words in a sentence in ascending order of the length of the words 
 #_________________________________________________________
 
