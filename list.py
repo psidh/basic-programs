@@ -13,6 +13,10 @@ for i in range(5):
 print(l3)
 
 
+# #Q4)  list of combinations of 0's  and 1's   -  two dimen array
+
+# # boys = 0
+# # girls = 1
 list2=[]
 def i():
     rows = int(input("Enter thh number of rows: "))
@@ -26,7 +30,7 @@ i()
 print(list2)
 
 list3 = []
-for row in l1:
+for row in list2:
     boy = row.count(0)
     girl = row.count(1)
     list3.append([boy, girl])
@@ -35,3 +39,6 @@ for i in range(len(list3)):
     
     print(f"{i+1} Row: boys {list3[i][0]}")
     print(f"{i+1} Row: girls {list3[i][1]}")
+
+
+
